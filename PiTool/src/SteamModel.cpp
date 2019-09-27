@@ -11,10 +11,6 @@
 #include "quazip/JlCompress.h"
 #include <QDebug>
 #include "piservice.h"
-#include <QSqlDatabase>
-#include <QSqlError>
-#include <QSqlQuery>
-#include <QSqlRecord>
 #include <QPixmap>
 #include "OnlineModel.h"
 #include "PiLog/WinCommon.h"

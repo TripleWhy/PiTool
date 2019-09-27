@@ -2,12 +2,7 @@
 #define ONLINE_MODEL_H
 
 #include <QObject>
-#include "OnlineItem.h"
-#include <QJsonArray>
 #include <QJsonObject>
-#include <QNetworkAccessManager>
-#include <QNetworkReply>
-#include <QFile>
 #include "OnlineRequest.h"
 
 class OnlineModel : public QObject

@@ -1,11 +1,11 @@
 #pragma once
-#include  <shlobj.h>
+#include <shlobj.h>
 #include <windows.h>
 #include <iostream>
 
 #pragma warning( push ) 
 #pragma warning( disable : 4091 )
-#include <DbgHelp.h>
+#include <dbghelp.h>
 #pragma warning( pop )
 
 class Exception {
