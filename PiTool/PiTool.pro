@@ -112,7 +112,6 @@ HEADERS += \
 
 RC_FILE += icon.rc \
 
-LIBS += User32.lib NETAPI32.LIB Advapi32.lib
 LIBS +=  -L"$$PWD/piSvc" -lPiSvc
 CONFIG(debug, debug|release) {
     LIBS +=  -L"$$PWD/PiLog" -lPiLogd
